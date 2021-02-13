@@ -33,7 +33,7 @@ module Mastodon
     end
 
     def repository
-      ENV.fetch('GITHUB_REPOSITORY', 'tupot-pl/mastodon')
+      ENV.fetch('GITHUB_REPOSITORY', 'tootsuite/mastodon')
     end
 
     def source_base_url
